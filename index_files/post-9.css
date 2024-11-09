@@ -3,11 +3,11 @@
 	font-style: normal;
 	font-weight: normal;
 	font-display: auto;
-	src: url('https://satu-moment.com/wp-content/uploads/2023/07/Dream-Avenue.eot');
-	src: url('https://satu-moment.com/wp-content/uploads/2023/07/Dream-Avenue.eot?#iefix') format('embedded-opentype'),
-		url('https://satu-moment.com/wp-content/uploads/2023/07/Dream-Avenue.woff2') format('woff2'),
-		url('https://satu-moment.com/wp-content/uploads/2023/07/Dream-Avenue.woff') format('woff'),
-		url('https://satu-moment.com/wp-content/uploads/2023/07/Dream-Avenue.ttf') format('truetype'),
-		url('https://satu-moment.com/wp-content/uploads/2023/07/Dream-Avenue.svg#DreamAvenue') format('svg');
+	src: url('./index_files/Dream-Avenue.eot');
+	src: url('./index_files/Dream-Avenue.eot?#iefix') format('embedded-opentype'),
+		url('./index_files/Dream-Avenue.woff2') format('woff2'),
+		url('./index_files/Dream-Avenue.woff') format('woff'),
+		url('./index_files/Dream-Avenue.ttf') format('truetype'),
+		url('./index_files/Dream-Avenue.svg#DreamAvenue') format('svg');
 }
 /* End Custom Fonts CSS */
