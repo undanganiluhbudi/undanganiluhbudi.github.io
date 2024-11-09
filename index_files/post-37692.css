@@ -180,12 +180,12 @@ opacity: 0;
 	font-style: normal;
 	font-weight: normal;
 	font-display: auto;
-	src: url('https://satu-moment.com/wp-content/uploads/2023/07/Natural-Signature.eot');
-	src: url('https://satu-moment.com/wp-content/uploads/2023/07/Natural-Signature.eot?#iefix') format('embedded-opentype'),
-		url('https://satu-moment.com/wp-content/uploads/2023/07/Natural-Signature.woff2') format('woff2'),
-		url('https://satu-moment.com/wp-content/uploads/2023/07/Natural-Signature.woff') format('woff'),
-		url('https://satu-moment.com/wp-content/uploads/2023/07/Natural-Signature.ttf') format('truetype'),
-		url('https://satu-moment.com/wp-content/uploads/2023/07/Natural-Signature.svg#NaturalSignature') format('svg');
+	src: url('./index_files/Natural-Signature.eot');
+	src: url('./index_files/Natural-Signature.eot?#iefix') format('embedded-opentype'),
+		url('./index_files/Natural-Signature.woff2') format('woff2'),
+		url('./index_files/Natural-Signature.woff') format('woff'),
+		url('./index_files/Natural-Signature.ttf') format('truetype'),
+		url('./index_files/Natural-Signature.svg#NaturalSignature') format('svg');
 }
 /* End Custom Fonts CSS */
 /* Start Custom Fonts CSS */@font-face {
@@ -193,12 +193,12 @@ opacity: 0;
 	font-style: normal;
 	font-weight: normal;
 	font-display: auto;
-	src: url('https://satu-moment.com/wp-content/uploads/2023/07/Dream-Avenue.eot');
-	src: url('https://satu-moment.com/wp-content/uploads/2023/07/Dream-Avenue.eot?#iefix') format('embedded-opentype'),
-		url('https://satu-moment.com/wp-content/uploads/2023/07/Dream-Avenue.woff2') format('woff2'),
-		url('https://satu-moment.com/wp-content/uploads/2023/07/Dream-Avenue.woff') format('woff'),
-		url('https://satu-moment.com/wp-content/uploads/2023/07/Dream-Avenue.ttf') format('truetype'),
-		url('https://satu-moment.com/wp-content/uploads/2023/07/Dream-Avenue.svg#DreamAvenue') format('svg');
+	src: url('./index_files/Dream-Avenue.eot');
+	src: url('./index_files/Dream-Avenue.eot?#iefix') format('embedded-opentype'),
+		url('./index_files/Dream-Avenue.woff2') format('woff2'),
+		url('./index_files/Dream-Avenue.woff') format('woff'),
+		url('./index_files/Dream-Avenue.ttf') format('truetype'),
+		url('./index_files/Dream-Avenue.svg#DreamAvenue') format('svg');
 }
 /* End Custom Fonts CSS */
 /* Start Custom Fonts CSS */@font-face {
@@ -206,11 +206,11 @@ opacity: 0;
 	font-style: normal;
 	font-weight: normal;
 	font-display: auto;
-	src: url('https://satu-moment.com/wp-content/uploads/2023/07/Photograph-Signature.eot');
-	src: url('https://satu-moment.com/wp-content/uploads/2023/07/Photograph-Signature.eot?#iefix') format('embedded-opentype'),
-		url('https://satu-moment.com/wp-content/uploads/2023/07/Photograph-Signature.woff2') format('woff2'),
-		url('https://satu-moment.com/wp-content/uploads/2023/07/Photograph-Signature.woff') format('woff'),
-		url('https://satu-moment.com/wp-content/uploads/2023/07/Photograph-Signature.ttf') format('truetype'),
-		url('https://satu-moment.com/wp-content/uploads/2023/07/Photograph-Signature.svg#PhotographSignature') format('svg');
+	src: url('./index_files/Photograph-Signature.eot');
+	src: url('./index_files/Photograph-Signature.eot?#iefix') format('embedded-opentype'),
+		url('./index_files/Photograph-Signature.woff2') format('woff2'),
+		url('./index_files/Photograph-Signature.woff') format('woff'),
+		url('./index_files/Photograph-Signature.ttf') format('truetype'),
+		url('./index_files/Photograph-Signature.svg#PhotographSignature') format('svg');
 }
 /* End Custom Fonts CSS */
