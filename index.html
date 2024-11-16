@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	
-		<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
 	<!-- This site is optimized with the Yoast SEO plugin v22.4 - https://yoast.com/wordpress/plugins/seo/ -->
 	<title>Budi &amp; Iluh | Undangan Pernikahan</title>
@@ -13,7 +13,7 @@
 	<meta property="og:description" content="Tanpa mengurangi rasa hormat, kami mengundang anda untuk hadir pada acara pernikahan kami.">
 	<meta property="og:url" content="https://undanganiluhbudi.github.io/">
 	<meta property="og:site_name" content="Satu Moment">
-	<meta property="article:modified_time" content="2024-11-02T15:05:08+00:00">
+	<meta property="article:modified_time" content="2027-12-22T15:05:08+00:00">
 	<meta property="og:image" content="./index_files/Meta-Budi-Iluh.jpg">
 	<meta property="og:image:width" content="1024">
 	<meta property="og:image:height" content="683">
@@ -97,6 +97,27 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel="stylesheet" href="./index_files/bootstrap.min.css">
 
 <link rel="stylesheet" href="./index_files/font-awesome.min.css">
+
+<script>
+	// Fungsi untuk membaca parameter URL
+	function getParameterByName(name) {
+		const url = window.location.search;
+		const params = new URLSearchParams(url);
+		return params.get(name);
+	}
+
+	// Ubah isi elemen berdasarkan parameter
+	function ubahKonten() {
+		const konten = getParameterByName('isi');
+		if (konten) {
+			document.getElementById("target").innerHTML = konten;
+		}
+	}
+
+	// Jalankan fungsi saat halaman dimuat
+	window.onload = ubahKonten;
+</script>
+
 <script>
 	
 	jQuery(document).ready(function ($) {
@@ -208,7 +229,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 				</div>
 				<div class="elementor-element elementor-element-a8d2ebd elementor-widget elementor-widget-shortcode" data-id="a8d2ebd" data-element_type="widget" data-widget_type="shortcode.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-shortcode"></div>
+					<div class="elementor-shortcode" id="target">Undangan</div>
 				</div>
 				</div>
 				<div class="elementor-element elementor-element-5be55c3 elementor-widget elementor-widget-jet-listing-dynamic-field" data-id="5be55c3" data-element_type="widget" data-widget_type="jet-listing-dynamic-field.default">
